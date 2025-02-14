@@ -4,7 +4,7 @@ library(sjlabelled)
 
 # Especificar periodo ###############################################
 anio_actual <- 2024  #Cambiar al actualizar (si corresponde) 
-trimestre_actual <- 2 #Cambiar al actualizar (si corresponde) 
+trimestre_actual <- 3 #Cambiar al actualizar (si corresponde) 
 
 # Creo vectores de anio y trim EPH-continua ###########
 trimestres_de_sobra = case_when(trimestre_actual == 1 ~ 3,
